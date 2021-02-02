@@ -4,7 +4,6 @@
 * bubble_sort - sorts an array in ascending order using Bubble sort algorithm
 * @array: array of integers
 * @size: size of the array
-* Return: 0
 */
 void bubble_sort(int *array, size_t size)
 {
@@ -15,7 +14,7 @@ void bubble_sort(int *array, size_t size)
 	if (!array || (size == 0))
 		return;
 	if  (size == 1)
-		print_array(array, size);
+		return;
 
 	while (swapped == true)
 	{
