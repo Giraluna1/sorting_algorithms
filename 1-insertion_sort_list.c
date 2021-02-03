@@ -11,7 +11,7 @@ void insertion_sort_list(listint_t **list)
 
 	current = (*list)->next;
 
-	if (!list && !*list && !current)
+	if (!list || !*list || !current)
 		return;
 
 	while (current)
