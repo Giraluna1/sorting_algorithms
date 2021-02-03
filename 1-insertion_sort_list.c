@@ -1,4 +1,5 @@
 #include "sort.h"
+
 /**
  * insertion_sort_list- sorts a DLL using insertion sort algorithm
  * @list: pointer a doubly linked list
@@ -15,7 +16,7 @@ void insertion_sort_list(listint_t **list)
 	while (current)
 	{
 		ref_next = current->next;
-		while (current->prev->n > current->n && current->prev)
+		while (current->prev && current->n < current->prev->n)
 		{
 			if (current->prev->prev != NULL)
 				current->prev->prev->next = current;
