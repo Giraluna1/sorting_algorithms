@@ -2,7 +2,6 @@
 
 0x1B. C - Sorting algorithms & Big O
 
-
 About
 
 This is an educational project to explore several conceptos bout Python
