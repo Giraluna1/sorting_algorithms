@@ -34,6 +34,7 @@ File Descriptions
 This project is conceived to be carried out step by step, that is why the description of the files is presented as a statement.
 Data Structure and Functions
 
+
 For this project you are given the following print_array, and print_list functions:
 
 #include <stdlib.h>
