@@ -1120,7 +1120,7 @@ int main(void)
     return (0);
 }
 ~/HOLBERTON/sorting_algorithms$ gcc -Wall -Wextra -Werror -pedantic 1000-main.c 1000-sort_deck.c -o deck
-alex@/tmp/sort$ ./deck
+~/HOLBERTON/sorting_algorithms$ ./deck
 {Jack, C}, {4, H}, {3, H}, {3, D}, {Queen, H}, {5, H}, {5, S}, {10, H}, {6, H}, {5, D}, {6, S}, {9, H}, {7, D}
 {Jack, S}, {Ace, D}, {9, C}, {Jack, D}, {7, S}, {King, D}, {10, C}, {King, S}, {8, C}, {9, S}, {6, C}, {Ace, C}, {3, S}
 {8, S}, {9, D}, {2, H}, {4, D}, {6, D}, {3, C}, {Queen, C}, {10, S}, {8, D}, {8, H}, {Ace, S}, {Jack, H}, {2, C}
